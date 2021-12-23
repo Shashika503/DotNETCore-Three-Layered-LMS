@@ -1,0 +1,72 @@
+﻿@model LMS.Models.Catalog.AssetDetailModel
+<div class="container">
+    <div class="page-header clearfix detailHeading">
+        <h2 class="text-muted"> View Library Item </h2>
+
+    </div>
+
+</div>
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+
+                <img class="detailImage" src="@Model.ImageUrl" />
+
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div>
+                <p id="itemTitle">@Model.Title</p>
+                <p id="itemAuthor">@Model.AuthorOrDirector</p>
+                <p id="itemStatus">@Model.Status</p>
+                <p id="itemType">@Model.Type</p>
+                <p id="itemLocation">@Model.CurrentLocation</p>
+
+                @if (Model.Status == "Lost")
+                {
+                    <p>This item has been lost. It Cannot be Checked out.</p>
+                    <p><a class="btn align-content-lg-around btn-danger" role="button" asp-controller="Catalog" asp-action="MarkFound" id="@Model.AssetId">Mark Item Found</a></p>
+
+                }
+
+                @if (Model.Status == "Checked Out")
+                {
+                    <p id="itemPatron">Checked Out By: @Model.PatronName</p>
+                    <p><a class="btn align-content-lg-around btn-success" role="button" asp-controller="Catalog" asp-action="CheckIn" id="@Model.AssetId">Check In</a></p>
+                    <p><a class="btn align-content-lg-around btn-warning" role="button" asp-controller="Catalog" asp-action="Hold" id="@Model.AssetId">Place Hold</a></p>
+                }
+
+                @if (Model.Status == "Available")
+                {
+                    <p><a class="btn align-content-lg-around btn-info" role="button" asp-controller="Catalog" asp-action="Checkout" id="@Model.AssetId">Check Out</a></p>
+
+                }
+
+            </div>
+        </div>
+        <div class="col-md-4 detailInfo">
+
+            <table>
+                <tr>
+                    <td class="itemLable">ISBN :</td>
+                    <td class="itemValue">@Model.ISBN</td>
+                </tr>
+                <tr>
+                    <td class="itemLable">Call Number :</td>
+                    <td class="itemValue">@Model.DeweyCallNumber</td>
+                </tr>
+                <tr>
+                    <td class="itemLable">Replacement Cost :</td>
+                    <td class="itemValue">@Model.Cost</td>
+                </tr>
+            </table>
+     </div>
+
+ </div>
+
+</div>
+
+

@@ -1,0 +1,15 @@
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\bin\Debug\net5.0\LibrarySevices.deps.json
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\bin\Debug\net5.0\LibrarySevices.dll
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\bin\Debug\net5.0\ref\LibrarySevices.dll
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\bin\Debug\net5.0\LibrarySevices.pdb
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\bin\Debug\net5.0\LibraryData.dll
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\bin\Debug\net5.0\LibraryData.pdb
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\LibrarySevices.csproj.AssemblyReference.cache
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\LibrarySevices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\LibrarySevices.AssemblyInfoInputs.cache
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\LibrarySevices.AssemblyInfo.cs
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\LibrarySevices.csproj.CoreCompileInputs.cache
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\LibrarySevices.csproj.CopyComplete
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\LibrarySevices.dll
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\ref\LibrarySevices.dll
+C:\Users\Shashika\source\repos\LMS\LibrarySevices\obj\Debug\net5.0\LibrarySevices.pdb
