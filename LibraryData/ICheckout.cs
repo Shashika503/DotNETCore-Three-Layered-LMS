@@ -17,6 +17,8 @@ namespace LibraryData
         string GetCurrentHoldPatronName(int id);
         DateTime GetCurrentHoldPlaced(int id);
 
+        bool IsCheckedOut(int id);  
+
         void Add(Checkout newCheckout);
         void CheckoutItem(int assetId, int libraryCardId);
         void CheckInItem(int assetId, int libraryCardId);

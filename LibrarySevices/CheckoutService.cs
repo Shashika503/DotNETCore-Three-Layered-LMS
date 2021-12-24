@@ -180,6 +180,7 @@ namespace LibrarySevices
             CheckoutItem(assetId, card.Id);
         }
 
+
         public void CheckoutItem(int assetId, int libraryCardId)
         {
             if (IsCheckedOut(assetId))
@@ -226,7 +227,7 @@ namespace LibrarySevices
 
         }
 
-        private bool IsCheckedOut(int assetId)
+        public bool IsCheckedOut(int assetId)
         {
             return _context.Checkouts
                 .Where(co => co.LibraryAsset.Id == assetId)
@@ -296,7 +297,6 @@ namespace LibrarySevices
                   .FirstOrDefault(co => co.LibraryAsset.Id == assetId);
         }
 
-
-
+       
     }
  } 

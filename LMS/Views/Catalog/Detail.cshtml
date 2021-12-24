@@ -69,4 +69,76 @@
 
 </div>
 
+<div class= "row">
+<div class = "col-lg-6">
+    <h3>Checkout History</h3>
+    <div id="assetTable">
+        <table class="table table-bordered table-hover" id="catalogIndexTable">
+            <thead>
+
+                <tr>
+                    <th>Date Loaned</th>
+                    <th>Date Returned</th>
+                      <th>Card Id</th>
+            </tr>
+
+                    
+
+            </thead>
+            <tbody>
+                @foreach(var checkout in @Model.CheckoutHistory)
+                {
+                   <tr>
+                       <td>
+                           @checkout.CheckedOut
+                       </td>
+
+                        <td>
+                           @checkout.CheckedIn      
+                       </td>
+
+                       <td>
+                           @checkout.LibraryCard.Id     
+                       </td>
+
+                   </tr>
+                    
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+
+<div class = "col-lg-6">
+    <h3>Current Holds</h3>
+    <table class="table table-bordered table-hover" id="catalogIndexTable">
+            <thead>
+
+                <tr>
+                    <th>Hold Placed</th>
+                    <th>Patron</th>
+               </tr>
+                    
+
+            </thead>
+            <tbody>
+                @foreach(var hold in @Model.CurrentHolds)
+                {
+                   <tr>
+                       <td>
+                           @hold.HoldPlaced
+                       </td>
+
+                        <td>
+                           @hold.PatronName
+                       </td>
+
+                   </tr>
+                    
+                }
+            </tbody>
+        </table>
+    </div>
+
 
