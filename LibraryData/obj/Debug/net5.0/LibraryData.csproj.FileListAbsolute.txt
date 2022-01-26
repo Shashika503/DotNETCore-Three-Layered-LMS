@@ -4,7 +4,6 @@ C:\Users\Shashika\source\repos\LMS\LibraryData\bin\Debug\net5.0\LibraryData.runt
 C:\Users\Shashika\source\repos\LMS\LibraryData\bin\Debug\net5.0\LibraryData.dll
 C:\Users\Shashika\source\repos\LMS\LibraryData\bin\Debug\net5.0\ref\LibraryData.dll
 C:\Users\Shashika\source\repos\LMS\LibraryData\bin\Debug\net5.0\LibraryData.pdb
-C:\Users\Shashika\source\repos\LMS\LibraryData\obj\Debug\net5.0\LibraryData.csproj.AssemblyReference.cache
 C:\Users\Shashika\source\repos\LMS\LibraryData\obj\Debug\net5.0\LibraryData.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Shashika\source\repos\LMS\LibraryData\obj\Debug\net5.0\LibraryData.AssemblyInfoInputs.cache
 C:\Users\Shashika\source\repos\LMS\LibraryData\obj\Debug\net5.0\LibraryData.AssemblyInfo.cs

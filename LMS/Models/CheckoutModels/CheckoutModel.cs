@@ -1,4 +1,4 @@
-﻿namespace LMS.Models.Checkout
+﻿namespace LMS.Models.CheckoutModels
 {
     public class CheckoutModel
     {

@@ -1,7 +1,7 @@
 ﻿using LibraryData;
 using LMS.Models;
 using LMS.Models.Catalog;
-using LMS.Models.Checkout;
+using LMS.Models.CheckoutModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
@@ -92,11 +92,14 @@ namespace LMS.Controllers
         }
 
         public IActionResult Checkout(int id)
+
         {
+             
             var asset = _assets.GetById(id);
+
             var model = new CheckoutModel
             {
-                AssetId=id,
+                AssetId= id,
                 ImageUrl = asset.ImageUrl,
                 Title = asset.Title,
                 LibraryCardId ="",
@@ -123,8 +126,8 @@ namespace LMS.Controllers
 
         public IActionResult Hold(int id)
         {
-
             var asset = _assets.GetById(id);
+
             var model = new CheckoutModel
             {
                 AssetId = id,
